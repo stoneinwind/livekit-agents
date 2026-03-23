@@ -52,7 +52,7 @@ class MoondreamClient:
                 "messages": [
                     {
                         "role": "user",
-                        "content": "Describe the image concisely and correctly.",
+                        "content": "Describe the image concisely and correctly. Skip the letters or numbers or logos on the image.",
                         "images": [image_b64],
                     }
                 ],
